@@ -1,13 +1,9 @@
-# AI Agents Masterclass
+# Module 1 — Agent loop
 
-Each module is its own branch. This branch is an index. It is not a combined solution.
-
-| Module | Branch |
-|--------|--------|
-| 1 Understanding Autonomous AI Agents | `module-1-agent-loop` |
-
-Clone one lab:
+Standalone lab. No API key. Python 3.12.
 
 ```bash
-git clone --branch module-1-agent-loop --single-branch https://github.com/skilleo-ai/ai-agents-masterclass.git
+python check.py
 ```
+
+Success line: `PASS agent-loop 42-PAR`
