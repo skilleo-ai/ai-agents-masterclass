@@ -1,14 +1,13 @@
-# AI Agents Masterclass
+# Module 2 — Agent environment
 
-Each module is its own branch. This branch is an index. It is not a combined solution.
-
-| Module | Branch |
-|--------|--------|
-| 1 Understanding Autonomous AI Agents | `module-1-agent-loop` |
-| 2 Setting Up Your AI Agent Environment | `module-2-environment` |
-
-Clone one lab:
+Standalone lab. The check uses the local model. The key in the env example stays YOUR_API_KEY.
 
 ```bash
-git clone --branch module-1-agent-loop --single-branch https://github.com/skilleo-ai/ai-agents-masterclass.git
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt -q
+cp .env.example .env
+python check.py
 ```
+
+Success line: `PASS agent-env local 3`
